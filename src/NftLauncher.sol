@@ -27,8 +27,8 @@ contract NftLauncher is Ownable {
     uint256 public collectionFee;
 
     /** IMPLEMENTATIONS */
-    address public singleNftImplementation;
-    address public collectionImplementation;
+    address public singleNftImplementation; // Sepolia: 0x21367262125DAfD82fE32c05131e6115317eD5f1
+    address public collectionImplementation; // Sepolia: 0xaEA73f38ED1dC00Fc2Fff4eA80652E65218F0c3B
 
     /** TRACKING */
     mapping(uint256 => address) public collections; // Salt -> Collection
